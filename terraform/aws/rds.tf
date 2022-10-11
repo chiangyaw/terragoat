@@ -45,3 +45,21 @@ resource "aws_rds_cluster" "app8-rds-cluster" {
   allocated_storage       = 10
   backup_retention_period = 25
 }
+
+resource "aws_rds_cluster" "app9-rds-cluster" {
+  cluster_identifier = "app9-rds-cluster"
+  allocated_storage       = 10
+  backup_retention_period = 25
+}
+
+resource "aws_rds_cluster" "app10-rds-cluster" {
+  cluster_identifier = "app9-rds-cluster"
+  allocated_storage       = 10
+  backup_retention_period = 25
+}
+
+resource "aws_rds_cluster" "app11-rds-cluster" {
+  cluster_identifier = "app9-rds-cluster"
+  allocated_storage       = 10
+  backup_retention_period = 25
+}
