@@ -64,3 +64,9 @@ resource "aws_rds_cluster" "app11-rds-cluster" {
   allocated_storage       = 10
   backup_retention_period = 25
 }
+
+resource "aws_rds_cluster" "app12-rds-cluster" {
+  cluster_identifier = "app12-rds-cluster"
+  allocated_storage       = 10
+  backup_retention_period = 25
+}
